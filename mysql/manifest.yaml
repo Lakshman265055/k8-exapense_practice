@@ -14,13 +14,13 @@ spec:
     app: mysql
     tier: db
     project: expense
-  template:
-   metadata:
-    labels:
-      app: mysql
-      tier: db
-      project: expense
-   spec:
-    containers:
-    - name: mysql
-      image: lakshman045/mysql:v1
+ template:
+  metadata:
+  labels:
+    app: mysql
+    tier: db
+    project: expense
+  spec:
+   containers:
+   - name: mysql
+     image: lakshman045/mysql:v1
