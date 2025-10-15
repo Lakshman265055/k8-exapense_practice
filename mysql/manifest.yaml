@@ -16,7 +16,7 @@ spec:
     project: expense
  template:
   metadata:
-  labels:
+   labels:
     app: mysql
     tier: db
     project: expense
